@@ -1,0 +1,9 @@
+{
+  "s3_input_path": "s3://your-bucket/raw-data/",
+  "redshift_temp_dir": "s3://your-bucket/temp/",
+  "redshift_db": "analytics_db",
+  "redshift_table": "bronze.sales_data",
+  "bronze_table": "bronze.sales_data",
+  "silver_table": "silver.sales_data_clean",
+  "gold_table": "gold.region_sales"
+}
